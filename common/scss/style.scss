@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+$screen-xs: 480px;
+$screen-sm: 768px;
+$screen-md: 992px;
+$screen-lg: 1200px;
+
+$text_color: #fff;
+
+@import "compass/reset/";
+@import "compass/css3/";
+
+/* ==========================================================================
+   Common CSS
+   ========================================================================== */
+body {
+	color: $text_color;
+	font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+	font-size: 12px;
+	background-color: #FF5C00;
+	background-image: url(../img/bg.png);
+	@include background-size(200px 200px);
+	-webkit-text-size-adjust: 100%;
+}
+
+/* teaser
+---------------------------------------------- */
+
+.teaser {
+	margin: 80px auto 30px;
+	text-align: center;
+	&__logo {
+		margin: 0 0 0 -80px;
+		width: 300px;
+		height: auto;
+		@media (max-width: $screen-xs) {
+			margin: 0 0 0 -40px;
+			width: 194px;
+		}
+	}
+	&__title {
+		margin: 30px auto 0;
+		img {
+			width: 500px;
+			height: auto;
+			@media (max-width: $screen-xs) {
+				width: 85%;
+			}
+		}
+	}
+	&__text1 {
+		margin: 30px auto;
+		font-size: 160%;
+		line-height: 2;
+		@media (max-width: $screen-xs) {
+			font-size: 130%;
+		}
+	}
+	&__text2 {
+		color: #FFF500;
+		margin: 0 auto 10px;
+		font-size: 230%;
+		@media (max-width: $screen-xs) {
+			font-size: 160%;
+		}
+	}
+	&__text3 {
+		margin: 0 auto 40px;
+		font-size: 230%;
+		@media (max-width: $screen-xs) {
+			font-size: 160%;
+		}
+	}
+	&__copyright {
+		
+	}
+}
+
+.teaserSocial {
+	margin: 0 auto 40px;
+	.twitter-share-button {
+		width: 90px !important;
+	}
+}
+
+.mobile_display_none {
+	display: inline;
+	@media (max-width: $screen-xs) {
+		display: none;
+	}
+}
+
+.mobile_display_inline {
+	display: none;
+	@media (max-width: $screen-xs) {
+		display: inline;
+	}
+}
+
