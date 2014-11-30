@@ -4,9 +4,9 @@ A fansite of Minecraft for kids.
 
 「こどもでもたのしめる、こどもといっしょにたのしめる、マインクラフトのまとめサイト」  
 現在はティザーサイトのみ公開中。  
-稼働サイトはWordPressで実装予定ですが、コンテンツやテーマ等の制作物は、基本的に全てこちらにアップしていきます。
+稼働サイトはWordPressで実装予定ですが、静的コンテンツやテーマ等の制作物は、基本的に全てこちらにアップしていきます。
 
-![](screenshots/teaser.png?raw=true)
+![](screenshots/teaser.png)
 
 ## URL
 
