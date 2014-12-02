@@ -39,7 +39,7 @@ WordPressでの実装前に、静的なティザーサイトとして予告ペ�
 ![](screenshots/screenshot01.png?raw=true)
 
 [littlebird-site](https://github.com/littlebirdjp/littlebird-site)の時と同様、Sketchのアートボードを使って、モバイル版とデスクトップ版それぞれのデザインカンプを、1枚のページ内に作成しました。  
-デザイン上はモバイル版とデスクトップ版の2つがあれば十分だったのですが、今回は制作者の検証機がiPhone 6 Plusになってしまった関係上、iPhone5, iPhone 6 Plus, Desktopの3枚のアートボードを作成しました。  
+デザイン上はモバイル版とデスクトップ版の2つがあれば十分だったのですが、今回は制作者の検証機がiPhone 5sからiPhone 6 Plusに移行してしまった関係上、iPhone5, iPhone 6 Plus, Desktopの3枚のアートボードを作成しました。  
 これは、Sketch Mirrorを使って実機確認する際に、検証端末ぴったりのサイズで作らないと、厳密な再現が行えないためです。
 
 ティザーサイトでは、基本的なコンセプトとComing Soon（近日公開）ということが伝わればいいので、ロゴマークとタイトル、背景画像を使って「マインクラフト + こども」というサイトの基本テーマが伝わるデザインになるように意識しました。
