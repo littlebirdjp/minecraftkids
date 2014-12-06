@@ -68,7 +68,7 @@ WordPressでの実装前に、静的なティザーサイトとして予告ペ�
 最新のFacebookの仕様（2014年12月時点）では、og:imageのサイズは1200x630px（1.91:1比率）のみでOKとのことなので、Sketchで1200x630pxのアートボードを作成し、アートボード単位でPNG書き出しを行いました。  
 ロゴやタイトルは、ティザーサイト用に作った素材をコピーして、リサイズするだけで問題ありません。
 
-また、このサイズでog:imageを作成した場合、カードタイプを[「Summary Card with Large Image」](https://dev.twitter.com/cards/types/summary-large-image)に設定していれば、og:imageと共通で読み込ませても最適な見え方になるようでした。
+また、このサイズでog:imageを作成した場合、Twitterカードのカードタイプを[「Summary Card with Large Image」](https://dev.twitter.com/cards/types/summary-large-image)に設定していれば、og:imageを共通で読み込ませても最適な見え方になるようでした。
 
 ![](screenshots/screenshot04.png?raw=true)
 
@@ -97,17 +97,18 @@ WordPressでの実装前に、静的なティザーサイトとして予告ペ�
 faviconの素材は、先ほどog:imageを作ったSketchドキュメントの中に、favicon用のアートボードを追加する形で作成しました。  
 og:imageとfaviconを含むドキュメントは、「minecraftkids-socialicons.sketch」というファイルに保存しています。今後作成することになるであろう、TwitterアカウントやFacebookページ用のプロフィールアイコンなども、このSketchファイル内で共通管理していく予定です。
 
-さて、今回Sketchから書きだしたPNG画像を、[Favicon Generator](http://realfavicongenerator.net/)というWebサービスを使ってfavicon化することにしました。  
+さて、今回はSketchから書きだしたPNG画像を、[Favicon Generator](http://realfavicongenerator.net/)というWebサービスを使ってfavicon化することにしました。  
 そのため、このサービスの推奨サイズである260x260pxでアートボードを作成しています。
 
 ![](screenshots/screenshot05.png?raw=true)
 
-先ほどのサイトで「Select your Favicon picture」をクリックし、Sketchのアートボードから書き出した「favicon.png」を選択、その後色々な設定をした上で「Generate your Favicons and HTML code」というボタンをクリックすると、faviconファイルを作成することができます。
+先ほどのサイトで「Select your Favicon picture」をクリックし、Sketchのアートボードから書き出したPNG画像（favicon.png）を選択、その後色々な設定をした上で「Generate your Favicons and HTML code」というボタンをクリックすると、faviconファイルを作成することができます。
 
 [Favicon Generator](http://realfavicongenerator.net/)では、faviconに加えて色々なサイズのapple-touch-iconや、Windows 8用のタイル画像なども合わせて生成してくれるので、使ってみて非常に便利でした。
 
 Sketch側は背景を自動的に透過してPNGにしてくれるし、[Favicon Generator](http://realfavicongenerator.net/)も透過PNGに対応しているので、特に気にしなくてもイメージ通りのfaviconが作成できます。apple-touch-iconやWindows 8用のタイル画像に背景色を付けたい場合は、[Favicon Generator](http://realfavicongenerator.net/)上で細かく設定することもできます。
 
+![](screenshots/screenshot06.png?raw=true)
 
 
 
