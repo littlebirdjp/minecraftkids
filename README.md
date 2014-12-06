@@ -23,7 +23,7 @@ A fansite of Minecraft for kids.
 2. [ティザーサイトの作成](#user-content-ティザーサイトの作成)
 	- [ティザーサイトのデザインカンプ作成](#user-content-ティザーサイトのデザインカンプ作成)
 	- [ティザーサイトのコーディング](#user-content-ティザーサイトのコーディング)
-	- [og:imageの作成](#user-content-og:imageの作成)
+	- [ogimageの作成](#user-content-ogimageの作成)
 	- [faviconの作成](#user-content-faviconの作成)
 
 ### ローカル仮想環境の構築
@@ -60,7 +60,7 @@ WordPressでの実装前に、静的なティザーサイトとして予告ペ�
 
 ソーシャルボタン回りでは、Media Queriesを用いて、デスクトップ版の時だけGoogle+ボタンを表示、モバイル版の時だけLINEボタンを表示するように、表示項目を切り替えています。
 
-#### og:imageの作成
+#### ogimageの作成
 
 ![](screenshots/screenshot03.png?raw=true)
 
