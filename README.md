@@ -68,7 +68,7 @@ WordPressでの実装前に、静的なティザーサイトとして予告ペ�
 最新のFacebookの仕様（2014年12月時点）では、og:imageのサイズは1200x630px（1.91:1比率）のみでOKとのことなので、Sketchで1200x630pxのアートボードを作成し、アートボード単位でPNG書き出しを行いました。  
 ロゴやタイトルは、ティザーサイト用に作った素材をコピーして、リサイズするだけで問題ありません。
 
-また、このサイズでog:imageを作成した場合、カードタイプを「Summary Card with Large Image」に設定していれば、og:imageと共通で読み込ませても最適な見え方になるようでした。
+また、このサイズでog:imageを作成した場合、カードタイプを[「Summary Card with Large Image」](https://dev.twitter.com/cards/types/summary-large-image)に設定していれば、og:imageと共通で読み込ませても最適な見え方になるようでした。
 
 ##### SNS回りのmetaタグ
 
