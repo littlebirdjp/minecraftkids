@@ -23,6 +23,8 @@ A fansite of Minecraft for kids.
 2. [ティザーサイトの作成](#user-content-ティザーサイトの作成)
 	- [ティザーサイトのデザインカンプ作成](#user-content-ティザーサイトのデザインカンプ作成)
 	- [ティザーサイトのコーディング](#user-content-ティザーサイトのコーディング)
+	- [og:imageの作成](#user-content-og:imageの作成)
+	- [faviconの作成](#user-content-faviconの作成)
 
 ### ローカル仮想環境の構築
 
@@ -57,5 +59,40 @@ WordPressでの実装前に、静的なティザーサイトとして予告ペ�
 ブレークポイントは、Bootstrapと同じ段階設定で変数化していますが、このページでは480px切り替えのみ使用しています。CSSの設計は一応BEM風にしてありますが、ページ内の要素数が少ないのであまり意味はなかったかもしれません。
 
 ソーシャルボタン回りでは、Media Queriesを用いて、デスクトップ版の時だけGoogle+ボタンを表示、モバイル版の時だけLINEボタンを表示するように、表示項目を切り替えています。
+
+#### og:imageの作成
+
+![](screenshots/screenshot03.png?raw=true)
+
+次に、SNSでの拡散用にog:imageを作成しました。  
+最新のFacebookの仕様（2014年12月時点）では、og:imageのサイズは1200x630px（1.91:1比率）のみでOKとのことなので、Sketchで1200x630pxのアートボードを作成し、アートボード単位でPNG書き出しを行いました。  
+ロゴやタイトルは、ティザーサイト用に作った素材をコピーして、リサイズするだけで問題ありません。
+
+また、このサイズでog:imageを作成した場合、カードタイプを「Summary Card with Large Image」に設定していれば、og:imageと共通で読み込ませても最適な見え方になるようでした。
+
+##### SNS回りのmetaタグ
+
+```
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://minecraftkids.jp" />
+<meta property="og:image" content="http://minecraftkids.jp/common/img/ogimage.png" />
+<meta property="mixi:image" content="http://minecraftkids.jp/common/img/ogimage.png" />
+<meta property="og:site_name" content="マインクラフトきっず" />
+<meta property="fb:admins" content="youthkee" />
+<meta property="fb:app_id" content="" />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@youthkee">
+<meta name="twitter:url" content="http://minecraftkids.jp">
+<meta name="twitter:title" content="マインクラフトきっず">
+<meta property="twitter:description" content="こどものためのマインクラフトまとめサイト。" />
+<meta property="twitter:image" content="http://minecraftkids.jp/img/ogimage.png" />
+<meta name="twitter:domain" content="minecraftkids.jp">
+```
+
+#### faviconの作成
+
+
+
+
 
 
