@@ -70,6 +70,8 @@ WordPressでの実装前に、静的なティザーサイトとして予告ペ�
 
 また、このサイズでog:imageを作成した場合、カードタイプを[「Summary Card with Large Image」](https://dev.twitter.com/cards/types/summary-large-image)に設定していれば、og:imageと共通で読み込ませても最適な見え方になるようでした。
 
+![](screenshots/screenshot04.png?raw=true)
+
 ##### SNS回りのmetaタグ設定
 
 ```
@@ -98,11 +100,13 @@ og:imageとfaviconを含むドキュメントは、「minecraftkids-socialicons.
 さて、今回Sketchから書きだしたPNG画像を、[Favicon Generator](http://realfavicongenerator.net/)というWebサービスを使ってfavicon化することにしました。  
 そのため、このサービスの推奨サイズである260x260pxでアートボードを作成しています。
 
-![](screenshots/screenshot04.png?raw=true)
+![](screenshots/screenshot05.png?raw=true)
 
 先ほどのサイトで「Select your Favicon picture」をクリックし、Sketchのアートボードから書き出した「favicon.png」を選択、その後色々な設定をした上で「Generate your Favicons and HTML code」というボタンをクリックすると、faviconファイルを作成することができます。
 
 [Favicon Generator](http://realfavicongenerator.net/)では、faviconに加えて色々なサイズのapple-touch-iconや、Windows 8用のタイル画像なども合わせて生成してくれるので、使ってみて非常に便利でした。
+
+Sketch側は背景を自動的に透過してPNGにしてくれるし、[Favicon Generator](http://realfavicongenerator.net/)も透過PNGに対応しているので、特に気にしなくてもイメージ通りのfaviconが作成できます。apple-touch-iconやWindows 8用のタイル画像に背景色を付けたい場合は、[Favicon Generator](http://realfavicongenerator.net/)上で細かく設定することもできます。
 
 
 
