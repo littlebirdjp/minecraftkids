@@ -70,7 +70,7 @@ WordPressでの実装前に、静的なティザーサイトとして予告ペ�
 
 また、このサイズでog:imageを作成した場合、カードタイプを[「Summary Card with Large Image」](https://dev.twitter.com/cards/types/summary-large-image)に設定していれば、og:imageと共通で読み込ませても最適な見え方になるようでした。
 
-##### SNS回りのmetaタグ
+##### SNS回りのmetaタグ設定
 
 ```
 <meta property="og:type" content="website" />
@@ -91,6 +91,18 @@ WordPressでの実装前に、静的なティザーサイトとして予告ペ�
 
 #### faviconの作成
 
+続いて、ティザーサイトの公開に合わせて、faviconの作成も行いました。  
+faviconの素材は、先ほどog:imageを作ったSketchドキュメントの中に、favicon用のアートボードを追加する形で作成しました。  
+og:imageとfaviconを含むドキュメントは、「minecraftkids-socialicons.sketch」というファイルに保存しています。今後作成することになるであろう、TwitterアカウントやFacebookページ用のプロフィールアイコンなども、このSketchファイル内で共通管理していく予定です。
+
+さて、今回Sketchから書きだしたPNG画像を、[Favicon Generator](http://realfavicongenerator.net/)というWebサービスを使ってfavicon化することにしました。  
+そのため、このサービスの推奨サイズである260x260pxでアートボードを作成しています。
+
+![](screenshots/screenshot04.png?raw=true)
+
+先ほどのサイトで「Select your Favicon picture」をクリックし、Sketchのアートボードから書き出した「favicon.png」を選択、その後色々な設定をした上で「Generate your Favicons and HTML code」というボタンをクリックすると、faviconファイルを作成することができます。
+
+[Favicon Generator](http://realfavicongenerator.net/)では、faviconに加えて色々なサイズのapple-touch-iconや、Windows 8用のタイル画像なども合わせて生成してくれるので、使ってみて非常に便利でした。
 
 
 
