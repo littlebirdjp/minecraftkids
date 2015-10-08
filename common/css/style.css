@@ -136,6 +136,10 @@ body {
   width: 90px !important;
 }
 
+.teaserSocial .fb_iframe_widget{
+  display: inline;
+}
+
 .mobile_display_none {
   display: inline;
 }
@@ -151,5 +155,8 @@ body {
 @media (max-width: 480px) {
   .mobile_display_inline {
     display: inline;
+  }
+  .mobile_display_inline img {
+    margin-top: 10px;
   }
 }
